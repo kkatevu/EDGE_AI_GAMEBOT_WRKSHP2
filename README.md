@@ -1,58 +1,24 @@
 # EDGE_AI_GAMEBOT_WRKSHP2
+Battleship Game - AI vs Human
+Welcome to the Battleship Game project! This is a fun, interactive implementation of the classic Battleship game where you can play Human vs Human or Human vs AI.
+
 Overview
-Welcome to the AI Bot Workshop! In this workshop, we'll explore the fascinating world of artificial intelligence (AI) and create a chatbot using simple programming techniques. By the end of this session, you'll understand the basic principles behind AI bots and have hands-on experience coding a chatbot from scratch.
+This project allows two players to play the popular Battleship game on a grid, where they place their ships and take turns trying to hit their opponent’s ships. The game features an AI opponent with basic decision-making, capable of using different strategies to win.
 
-Workshop Goals
-Introduce participants to the concept of artificial intelligence and machine learning.
-Guide participants through creating a basic AI bot using Python.
-Provide insights into how natural language processing (NLP) works.
-Enable participants to interact with their AI bot and extend its functionality.
-Requirements
-Before starting the workshop, please make sure you have the following:
+Features
+Two Player Modes:
 
-Python installed on your computer (version 3.7+).
-Jupyter Notebook or any other Python IDE (e.g., VS Code, PyCharm).
-Basic knowledge of Python programming (variables, functions, loops, etc.).
-Internet access to download necessary libraries.
-Recommended Libraries:
-nltk for natural language processing
-chatterbot for creating the chatbot model
-Flask or Tkinter for adding a user interface (optional)
-To install the necessary libraries, use:
+Human vs Human: Play against a friend.
+Human vs AI: Play against an AI that picks its moves based on basic strategies.
+AI Strategy:
 
-bash
-Copy
-Edit
-pip install nltk chatterbot flask
-Workshop Outline
-1. Introduction to AI and Chatbots
-What is Artificial Intelligence (AI)?
-Overview of Natural Language Processing (NLP)
-How chatbots are used in real-world applications.
-2. Setting Up the Development Environment
-Installing Python and libraries.
-Setting up Jupyter Notebook or a preferred IDE.
-3. Creating a Simple Chatbot
-Understanding how chatbots "learn."
-Building a basic chatbot using the ChatterBot library.
-Training the bot with sample conversations.
-4. Improving the AI Bot
-Adding more complex features like sentiment analysis.
-Implementing a user interface with Flask or Tkinter (optional).
-5. Testing and Interacting with the Bot
-Testing the chatbot's responses.
-Engaging in a conversation with the bot and analyzing its answers.
-6. Extending the Bot’s Capabilities
-Adding custom responses.
-Training the bot with more data to improve its accuracy.
-Getting Started
-Clone or download the workshop code from the repository.
-Open the Python files or Jupyter Notebooks provided.
-Follow along with the instructions in the notebook.
-Feel free to make changes to the bot’s responses, and try adding more data to train the bot.
-Conclusion
-By the end of this workshop, you'll have:
+The AI uses a mix of random moves and strategies based on neighboring hits to predict ship locations and maximize its chances of winning.
+Color-Coded Game Board:
 
-A working chatbot powered by AI.
-A foundational understanding of how natural language processing works.
-Experience with AI and machine learning techniques.
+Different colors represent ship locations, hits, and misses to make it visually easy to follow the game.
+Ship Placement:
+
+Ships are placed on a 10x10 grid and can be either vertical or horizontal.
+Game Over Condition:
+
+The game ends when all ships of a player are hit.
